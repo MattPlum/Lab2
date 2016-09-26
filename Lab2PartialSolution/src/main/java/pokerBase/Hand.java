@@ -180,8 +180,8 @@ public class Hand {
 	public static boolean isHandFlush(Hand h, HandScore hs) {
 
 		boolean bIsFlush = false;
-		// TODO Implement this method
-		//Still dont understand
+		hs.setHandStrength(eHandStrength.Flush.getHandStrength());
+		
 		return bIsFlush;
 	}
 	
@@ -190,8 +190,8 @@ public class Hand {
 	public static boolean isHandStraight(Hand h, HandScore hs) {
 
 		boolean bIsStraight = false;
-		// TODO Implement this method
-		//SOS Help
+		hs.setHandStrength(eHandStrength.Straight.getHandStrength());
+		
 		return bIsStraight = false;
 	}
 	
